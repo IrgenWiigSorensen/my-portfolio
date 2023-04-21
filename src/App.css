@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+  --primaryColor: black;
+  --secondaryColor: whitesmoke;
+  --navColor1: #21292c;
+  --navColor2: #076969;
+  --navColor3: #133175;
+  --navColor4: #AF780B;
+  --navColor5: #AF550B;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -6,27 +19,15 @@
   text-align: center;
 }
 
-nav {
-  height: 20vh;
-  background-color: whitesmoke;
+body {
+  margin: 0;
+  background: whitesmoke;
+  font-family: Nunito, sans-serif;
 }
 
-main {
-  height: 100vh;
-  background-color: black;
-  border: solid 1px whitesmoke;
-  color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
-footer {
-  height: 50vh;
-  background-color: black;
-  color: white;
-}
+
+
 
 
 

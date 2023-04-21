@@ -1,28 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-import Nav from './components/nav/nav.component';
+import Navbar from './components/navbar/navbar.component';
+import Home from './components/home/home.component';
+import About from './components/about/about.component';
+import NavOverlay from './components/nav-overlay/nav-overlay.component';
+import Footer from './components/footer/footer.component';
+import Skills from './components/skills/skills.component';
+import Contact from './components/contact/contact.component';
+import Projects from './components/projects/projects.component';
 
 function App() {
 
+
   return (
     <>
-      <Nav/>
-      <main>
-        <div>
-          <h6>Hi, my name is</h6>
-        </div>
-        <div>
-          <h2>Irgen Wiig Sørensen.</h2>
-        </div>
-        <div>
-          <h2>I build things</h2>
-        </div>
-      </main>
-      <footer>
-        <div>Created by Irgen Wiig Sørensen</div>
-      </footer>
+      <NavOverlay/>
+      <>
+        <Navbar/>
+        <Home/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
+      </>
     </>
   );
 }
