@@ -1,8 +1,9 @@
 import { useContext } from 'react'
 
-import './navbar.styles.css'
-import logo from './app-logo.png'
+import './navbar.styles.scss'
+// import logo from './app-logo.png'
 import { OverlayContext } from '../../contexts/overlay.context'
+import SidebarIcons from '../sidebar-icons/sidebar-icons.component';
 
 const Navbar = () => {
 
@@ -25,6 +26,7 @@ const Navbar = () => {
           <div className={`nav-menu-bar3 ${isOverlayActive && "change-bar3"}`}></div>
         </div>
       </div>
+      <SidebarIcons/>
     </>
   )
 }

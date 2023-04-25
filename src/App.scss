@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+  --primaryColor: black;
+  --secondaryColor: whitesmoke;
+  --navColor1: #21292c;
+  --navColor2: #076969;
+  --navColor3: #133175;
+  --navColor4: #AF780B;
+  --navColor5: #AF550B;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background: whitesmoke;
+  // font-family: Nunito, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--secondaryColor);
+
+  .section-header {
+    font-size: 4rem;
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--secondaryColor);
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+

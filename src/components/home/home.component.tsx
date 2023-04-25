@@ -1,18 +1,22 @@
-import './home.styles.css'
+import './home.styles.scss'
 
 const Home = () => {
 
   return(
 
-  <section className='home-section main'>
-    <div>
-      <h6>Hi, my name is</h6>
-    </div>
-    <div>
-      <h2>Irgen Wiig Sørensen.</h2>
-    </div>
-    <div>
-      <h2>I build things</h2>
+  <section className='home-section'>
+    <div className="dark-overlay">
+      <div className='intro-text'>
+        <div>
+          <p className='intro-text-1'>Hi,</p>
+        </div>
+        <div>
+          <p className='intro-text-2'>I'm Irgen.</p>
+        </div>
+        <div>
+          <p className='intro-text-3'>I like to build things!</p>
+        </div>
+      </div>
     </div>
   </section>
   )
