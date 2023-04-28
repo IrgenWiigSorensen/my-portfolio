@@ -1,5 +1,5 @@
 footer {
-  height: 50vh;
-  background-color: black;
-  color: white;
+  height: 30vh;
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
 }
