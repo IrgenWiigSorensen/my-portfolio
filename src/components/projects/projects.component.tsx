@@ -7,7 +7,7 @@ const Projects = () => {
   const { title, } = introdata; 
 
   return(
-    <section>
+    <section id='projects'>
       <div className="projects-section">
         <div  className='section-header'>
           <h1>Projects</h1>

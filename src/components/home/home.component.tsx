@@ -4,7 +4,7 @@ const Home = () => {
 
   return(
 
-  <section className='home-section'>
+  <section className='home-section' id='home'>
     <div className="dark-overlay">
       <div className='intro-text'>
         <div>

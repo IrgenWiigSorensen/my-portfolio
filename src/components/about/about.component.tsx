@@ -13,7 +13,7 @@ const About = () => {
   const { title, animated, aboutMe } = introdata; 
 
   return (
-    <section>
+    <section id='about'>
       <div className="about-section">
           <div  className='section-header'>
             <h1>About Me</h1>
