@@ -1,6 +1,6 @@
 import './footer.styles.scss'
 
-import JokeTeller from '../jokeTeller/jokeTeller.component';
+// import JokeTeller from '../jokeTeller/jokeTeller.component';
 
 const Footer = () => {
 
@@ -11,7 +11,7 @@ const Footer = () => {
           Created by Irgen Wiig Sørensen
           
           </p>
-          <JokeTeller />
+          {/* <JokeTeller /> */}
       </div>
     </footer>
   )

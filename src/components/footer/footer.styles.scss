@@ -1,10 +1,14 @@
 footer {
   height: 30vh;
   background-color: var(--primaryColor);
+  font-family: 'Open Sans', sans-serif;
   .footer-section {
     height: 100%;
     background-color: var(--primaryColor);
     color: var(--secondaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     p {
       padding: 50px;
