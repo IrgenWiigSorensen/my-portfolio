@@ -47,10 +47,10 @@ const About = () => {
         {/* Second about me container with a shot info */}
         <div className="about-container-2">
           <div className='left-inner-container'>
-            <h2>A bit about me</h2>
+            <h2>A bit about myself</h2>
           </div>
           <div className='right-inner-container'>
-            <h2>{aboutMe}</h2>
+            <p>{aboutMe}</p>
           </div>
         </div>
 
@@ -87,14 +87,14 @@ const About = () => {
           </div>
         </div>
         {/* Second about me container with fun facts */}
-        <div className="about-container-2">
+        {/* <div className="about-container-2">
           <div className='left-inner-container'>
             <h2>Extra info</h2>
           </div>
           <div className='right-inner-container'>
             <h2>A masters degree in international development</h2>
           </div>
-        </div>
+        </div> */}
 
 
       </div>

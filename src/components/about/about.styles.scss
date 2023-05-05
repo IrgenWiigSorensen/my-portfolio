@@ -1,9 +1,8 @@
 
 .about-section {
   background-color: var(--primaryColor);
-  padding: 0 10% 0 10%;
+  padding: 0 10% 5% 10%;
   width: 100%;
-  margin-bottom: 5%;
 
   // First container
   .about-container-1 {
@@ -12,6 +11,7 @@
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    
 
     .left-inner-container {
       max-width: 50%;
@@ -52,9 +52,10 @@
       height: auto; 
       padding: 10% 0 0 1%;
 
-      h2{
-        font-size: 0.9rem;
-        letter-spacing: 3px;
+      p{
+        font-size: 1rem;
+        letter-spacing: 2px;
+        font-weight: 600;
       }
      
 
@@ -65,9 +66,6 @@
           border-bottom: 2px solid var(--secondaryColor);
           padding-bottom: 8px;
           font-size: 1rem;
-        }
-        p {
-          font-size: 0.9rem;
         }
       }
     }

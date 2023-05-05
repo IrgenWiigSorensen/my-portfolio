@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-:root {
-  --primaryColor: black;
-  --secondaryColor: whitesmoke;
-  --navColor1: #21292c;
-  --navColor2: #076969;
-  --navColor3: #133175;
-  --navColor4: #AF780B;
-  --navColor5: #AF550B;
-}
+
 
 
 * {
@@ -21,11 +13,36 @@
 }
 
 body {
+  --primaryColor:#000000;
+  --secondaryColor:#f5f5f5;
+  --navColor1:#21292c;
+  --navColor2:#076969;
+  --navColor3:#133175;
+  --navColor4:#AF780B;
+  --navColor5:#AF550B;
+
   margin: 0;
   // font-family: Nunito, sans-serif;
   font-family: 'Open Sans', sans-serif;
   background-color: var(--primaryColor);
 }
+
+body.dark {
+  --primaryColor:#f5f5f5;
+  --secondaryColor:#000000;
+  --navColor1:#21292c;
+  --navColor2:#076969;
+  --navColor3:#133175;
+  --navColor4:#AF780B;
+  --navColor5:#AF550B;
+
+  margin: 0;
+  // font-family: Nunito, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--primaryColor);
+}
+
+
 
 section {
   width: 100%;
@@ -36,7 +53,7 @@ section {
   align-items: center;
   letter-spacing: 2px;
   color: var(--secondaryColor);
-  padding: 0 3%;
+  padding: 0 5%;
 
   .section-header {
     font-size: 2rem;

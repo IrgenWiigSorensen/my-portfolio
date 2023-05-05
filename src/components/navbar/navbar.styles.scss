@@ -1,32 +1,23 @@
 .navbar-container {
   display: flex;
   justify-content: space-between;
-}
+  
+  .navbar-logo-name {
+    position: absolute;
+    z-index: 9;
+    top: 1.5rem;
+    left: 1.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--secondaryColor);
+    border-bottom: 1px solid var(--secondaryColor);
+    font-family: Nunito, sans-serif;
+  }
 
-/* .navbar-logo-container {
-  max-height: 80px;
-  max-width: 80px;
-  margin: 15px 0 15px 60px;
-}
 
-.navbar-logo {
-  height: 100%;
-} */
-
-.navbar-logo-name {
-  position: absolute;
-  z-index: 9;
-  top: 1.5rem;
-  left: 1.5rem;
-  text-decoration: none;
-  font-size: 0.8rem;
-  padding-bottom: 5px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: var(--secondaryColor);
-  border-bottom: 1px solid var(--secondaryColor);
-  font-family: Nunito, sans-serif;
-}
 
 
 /* --- Menu Bars ------------------------------------ */
@@ -65,5 +56,16 @@
 .change-bar3 {
   transform: rotate(45deg) translate(-6px, -8px);
 }
+}
+
+/* .navbar-logo-container {
+  max-height: 80px;
+  max-width: 80px;
+  margin: 15px 0 15px 60px;
+}
+
+.navbar-logo {
+  height: 100%;
+} */
 
 

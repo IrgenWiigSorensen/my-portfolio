@@ -4,6 +4,7 @@ import './navbar.styles.scss'
 // import logo from './app-logo.png'
 import { OverlayContext } from '../../contexts/overlay.context'
 import SidebarIcons from '../sidebar-icons/sidebar-icons.component';
+import ColorScheme from '../color-scheme/color-scheme.component';
 
 const Navbar = () => {
 
@@ -17,6 +18,8 @@ const Navbar = () => {
         {/* <div className='navbar-logo-container'>
           <img src={logo} className='navbar-logo' alt='logo'></img>
         </div> */}
+
+        <ColorScheme className='color-scheme' />
 
 
         {/* <!-- Nav-Menu Bars --> */}

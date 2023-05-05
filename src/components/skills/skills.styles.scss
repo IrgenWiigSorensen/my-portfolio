@@ -15,59 +15,148 @@
       .left-inner-container {
         max-width: 50%;
         height: auto;
-        color: var(--secondaryColor);
-        font-size: 2rem;
+        font-size: 1rem;
         display: flex;
         flex-wrap: wrap;
+        padding: 2% 0 0 2%;
 
         .skill-text-box {
           padding: 5px;
+
+          p{
+            font-size: 1rem;
+            letter-spacing: 2px;
+            font-weight: 600;
+          }
         }
-    
       }
       
       .right-inner-container {
         max-width: 50%;
-        height: auto; 
-        padding: 1% 0.5% 1rem 0.5rem;
+        height: 100vh; 
         display: flex;
         flex-wrap: wrap;
-       
 
-        .skill-icon-box {
-          width: 100%;
-          display: flex;
-          justify-content:flex-start; 
-          padding: 100px 20px 20px;
-          margin-bottom: 1%;
+        .scroll-parent {
+          position: relative;
+          width: 40vw;
+          height: 100%;
+          overflow: hidden;
 
+          .primary-0 {
+            animation: primary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 0%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+          }
+          
+          .secondary-0 {
+            animation: secondary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 0%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+            // animation-delay: 14s;
+          }
 
-          .skill-icon {
-            width: 100px;
-            height: auto;
-            padding: 10px 20px;
-            margin: 10px;
-            border: 2px solid whitesmoke;
-            // border-radius: 20px;
+          .primary-1 {
+            animation: primary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 30%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+          }
+          
+          .secondary-1 {
+            animation: secondary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 30%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+            // animation-delay: 14s;
+          }
 
-            svg {
-              width: 100%;
-              height: 100%;
-              padding: 2px;
+          .primary-2 {
+            animation: primary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 60%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+          }
+          
+          .secondary-2 {
+            animation: secondary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 60%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+            // animation-delay: -1.5s;
+          }
+
+          @keyframes primary {
+            0% {
+              left: 0%;
             }
-            img {
-              width: 100%;
-              height: 100%;
+            100% {
+              left: -100%;
             }
-            &:hover {
-
+          }
+          
+          @keyframes secondary {
+            0% {
+              left: 100%;
+            }
+            100% {
+              left: 0%;
+            }
+          }
+          
+          
+          .skill-icon-box {
+            width: 100%;
+            height: 250px;
+            display: flex;
+            padding: 100px 0 20px 0;
+          
+            .skill-icon {
+              width: 100px;
+              height: auto;
+              padding: 10px 20px;
+              margin: 10px;
+              border: 2px solid var(--secondaryColor);
+              
               svg {
-                transition: transform 1s ease;
-                transform: scale(1.2);
+                width: 100%;
+                height: 100%;
+                padding: 2px;
               }
               img {
-                transition: transform 1s ease;
-                transform: scale(1.2);
+                width: 100%;
+                height: 100%;
+              }
+              &:hover {
+                
+                svg {
+                  transition: transform 1s ease;
+                  transform: scale(1.2);
+                }
+                img {
+                  transition: transform 1s ease;
+                  transform: scale(1.2);
+                }
               }
             }
           }

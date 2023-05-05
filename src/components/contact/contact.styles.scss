@@ -9,17 +9,20 @@
   .contact-container {
     width: 100%;
     display: flex;
-    margin-top: 4%;
-    padding: 0;
+    justify-content: space-between;
+    margin-top: 6%;
  
     .left-inner-container {
       max-width: 50%;
       height: auto;
       color: var(--secondaryColor);
-      font-size: 2rem;
+      padding: 0 0 0 2%;
       
-      h3 {
-        margin: 0;
+      p{
+        font-size: 1rem;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding-right: 20%;
       }
     }
     
@@ -63,16 +66,13 @@
           border: 1px solid var(--secondaryColor);
 
           &:hover {
+            transition: transform 1s ease;
             transform: scale(1.1);
-            box-shadow: 1px 1px white;
+            box-shadow: 1px 1px var(--secondaryColor);
+            cursor: pointer;
           }
         }
-        
-
       }
-
-
-
     }
   }
 }

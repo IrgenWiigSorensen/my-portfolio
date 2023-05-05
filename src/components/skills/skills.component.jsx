@@ -22,38 +22,53 @@ const Skills = () => {
 
                 return (
                   <div className='skill-text-box' key={i}>
-                    <h4>{skill}</h4>
+                    <h2>{skill}</h2>
                     <p>{info.text}</p>
-                    {/* {info.icons.map((data, i) => {
-                      return (
-                        <span key={i}>
-                          {data}
-                        </span>
-                      )
-                    })} */}
                   </div>
                 );
             })}
           </div>
 
           <div className='right-inner-container'>
-            {skills.map((data, i) => {
-              const { info } = data; 
+            <div className="scroll-parent">
 
+              {/* Fist loop of icons */}
+              {skills.map((data, i) => {
+                const { info } = data; 
+                
                 return (
-                  <div className='skill-icon-box' key={i}>
+                  <div className={`skill-icon-box primary-${i}`} key={i}>
 
-                    {info.icons.map((data, i) => {
+                      {info.icons.map((data, i) => {
+                        
+                        return (
+                          <div key={i} className='skill-icon'>
+                            {data}
+                          </div>
+                        )
+                      })}
+                    </div>
+                  );
+                })}
+              {/* Second loop of icons */}
+              {skills.map((data, i) => {
+                const { info } = data; 
+                
+                return (
+                  <div className={`skill-icon-box secondary-${i}`} key={i}>
 
-                      return (
-                        <div key={i} className='skill-icon'>
-                          {data}
-                        </div>
-                      )
-                  })}
-                  </div>
-                );
-              })}
+                      {info.icons.map((data, i) => {
+                        
+                        return (
+                          <div key={i} className='skill-icon'>
+                            {data}
+                          </div>
+                        )
+                      })}
+                    </div>
+                  );
+                })}              
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,14 @@
+footer {
+  height: 30vh;
+  background-color: var(--primaryColor);
+  .footer-section {
+    height: 100%;
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    
+    p {
+      padding: 50px;
+    }
+
+  }
+}

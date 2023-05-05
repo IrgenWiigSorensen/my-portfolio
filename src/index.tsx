@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { OverlayProvider } from './contexts/overlay.context';
+import { ColorSchemeProvider } from './contexts/color-scheme.context';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,7 +13,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <OverlayProvider>
-      <App />
+      <ColorSchemeProvider>
+        <App />
+      </ColorSchemeProvider>
     </OverlayProvider>
   </React.StrictMode>
 );

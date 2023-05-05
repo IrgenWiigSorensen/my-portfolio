@@ -18,11 +18,14 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "react-particles": "^2.9.3",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "sass": "^1.62.0",
+    "tsparticles": "^2.9.3",
     "typescript": "^4.9.5",
     "typewriter-effect": "^2.19.0",
+    "voice-rss-client": "^1.3.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,55 +1,98 @@
 
 .projects-section {
   background-color: var(--primaryColor);
-  padding: 0 10% 0 10%;
+  padding: 0 10% 5% 10%;
   width: 100%;
   min-height: 100vh;
 
   .projects-container {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    margin: 30px 0;
-    padding: 0;
+    justify-content:space-between;
+    margin-top: 2%;
+    padding: 0 0 0 2%;
  
     .project-box {
       max-width: 30%;
-      height: auto;
-      border: 1px solid var(--secondaryColor);
-
+      border: 2px solid var(--secondaryColor);
+      box-shadow: 0 1px 2px 1px var(--secondaryColor);
+      overflow: hidden;
 
       .project-img-container {
-        width: 100%;
-        height: auto;
-        // border: 1px solid var(--secondaryColor);
-        padding: 30px;
-        overflow: hidden;
-        
+        width: auto;
+        height: 250px;
+        margin:20px 20px 0;
+        box-shadow: 0 1px 2px 1px var(--secondaryColor);
 
         img {
           width: 100%;
           height: 100%;
-          // border-radius: 20px;
+          object-fit: cover;
 
           &:hover {
             transition: transform 1s ease;
             transform: scale(1.2);
           }
         }
-
       }
+
+      .project-bottom-container {
+        display: flex;
+        flex-direction: column;
+        height: 280px;
+
       .project-text-container {
-        padding: 10px;
+        padding: 10px 20px 0 20px;
+
         div {
           width: 100%;
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
           h1 {
-            margin: 10px; 
+            margin: 10px 10px 0 10px; 
           }
         }
       }
+        .button-container {
+          display: flex;
+          justify-content: center;
+          padding: 0 10px 10px;
+          margin-top: auto;
+          
+          button {
+            margin:0 10px;
+            padding: .5rem 1.5rem;
+            width: 80px;
+            height: 35px;
+            color: var(--secondaryColor);
+            background-color: var(--primaryColor);
+            border-radius: 0;
+            border: 1px solid var(--secondaryColor);
+            
+            &:hover {
+              transition: transform 1s ease;
+              transform: scale(1.1);
+              box-shadow: 1px 1px var(--secondaryColor);
+              cursor: pointer;
+            }
+            
+            a {
+              text-decoration: none;
+
+              &:visited {
+                text-decoration: none;
+                color: var(--secondaryColor);
+              }
+
+              svg{
+                height: 100%;
+                width: 100%;
+              }
+            }
+          }
+        }
+        }
     }
   }
 }

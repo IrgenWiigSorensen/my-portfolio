@@ -21,7 +21,6 @@ export const OverlayProvider =({children}) => {
   return (
     <OverlayContext.Provider value={value}>{children}</OverlayContext.Provider>
   )
-
 }
 
 
