@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center center;
   color: var(--secondaryColor);
+  min-height: 100vh;
 
   .dark-overlay {
     background: var(--primaryColor);

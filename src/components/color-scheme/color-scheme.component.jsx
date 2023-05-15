@@ -13,10 +13,8 @@ const ColorScheme = () => {
   useEffect(() => {
     if (isDark) {
       document.body.classList.add("dark");
-      console.log('working isDark')
     } else {
       document.body.classList.remove("dark");
-      console.log('working !isDark')
     }
   }, [isDark]);
 

@@ -40,7 +40,7 @@ const Projects = () => {
 
                     <div className="button-container">
                         {website && (
-                            <button>
+                            <button className='project-button'>
                               <a href={website}>
                                 View
                               </a>
@@ -50,7 +50,7 @@ const Projects = () => {
                               <Modal></Modal>
                         )}
                         {github && (
-                            <button>
+                            <button className='project-button'>
                               <a href={github}>
                                 <FaGithub />
                               </a>

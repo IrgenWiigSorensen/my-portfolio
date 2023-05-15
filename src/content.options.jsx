@@ -48,15 +48,15 @@ const socialprofils = {
 
 const workExperience = [{
   title: "2023 - JavaScript Consultant at Academic Work",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+  description: "Creating fullstack applications to further developing my skills.",
 },
 {
   title: "2022 - Coordinator at Blue Cross",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+  description: "Responsible for recruiting, organizing and following up a few hundred volunteers in multiple different activities for low income families and people struggling with an addiction.",
 },
 {
   title: "2021 - Advisor at Red Cross",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+  description: "Responsible for organizing free vacations for over hundred low-income families, which also involved recruiting and organizing volunteers for 10 vacations during a year.",
 },
 {
   title: "Prior of 2021 - Different jobs in different sectors",
@@ -81,7 +81,11 @@ const education = [{
 const skills = [{
   skill: 'Languages',
   info: {
-    text: `I have experience working with languages like HTML5, CSS3, JavaScript, TypeScript and PostgreSQl`,
+    text: `
+    With my experience in HTML5, CSS3, JavaScript, TypeScript, and PostgreSQL, I offer a solid foundation to bring your web projects to life. 
+    By harnessing the power of these technologies, I can create visually appealing and interactive websites that captivate your audience. 
+    Whether you're seeking stunning designs, seamless user interactions, or robust data management, I have the skills necessary to deliver exceptional results. 
+    `,
     icons: [
             <FontAwesomeIcon icon={faHtml5}  style={{color: "#f06529",}}/>,
             <FontAwesomeIcon icon={faCss3} style={{color: "#264de4",}}/>,
@@ -90,10 +94,13 @@ const skills = [{
             <img src={postgreSQLLogo} alt='PostgreSQL logo' />,
           ]
   }},
-  {skill: 'Frameworks',
+  {skill: 'Frameworks and clouds',
   info: {
-    text: `My building responsive websites front-end using React-Redux.... 
-            Creating application backend in Node, Express & PostgreSQL as well as FireBase`,
+    text: `
+    I have honed my skills in building responsive websites that effectively scale across devices using popular frameworks such as React, Angular, or Vue.js. 
+    In addition, I have experience working with backend technologies like Node.js, Express.js, and databases such as PostgreSQL and Firebase. 
+    I am passionate about creating exceptional digital experiences and always strive to stay updated with the latest industry trends and best practices.
+    `,
     icons: [
             <FontAwesomeIcon icon={faReact} style={{color: "#61DBFB",}} />,
             <FontAwesomeIcon icon={faNode} style={{color: "#68a063"}} />,
@@ -102,9 +109,13 @@ const skills = [{
             <img src={firebaseLogo} alt='Firebase logo' />, 
           ],
   }},
-  {skill: 'Libraries, clouds++',
+  {skill: 'Libraries and tools',
   info: {
-    text: `Experience with designing attractive and minimalistic user interface for mobile and web applications.  `,
+    text: `I have gained expertise in leveraging Bootstrap, NPM, Sass, Stripe, and Styled Components to enhance web development projects. 
+    Utilizing Bootstrap, I create designs that are not only responsive but also visually appealing. 
+    NPM helps me efficiently manage dependencies and integrate valuable packages. With Sass, I streamline the CSS workflow by taking advantage of its advanced features. 
+    Integrating Stripe ensures secure and seamless online payments. Lastly, using Styled Components, I construct reusable and modular styling components. 
+    `,
     icons: [
             <FontAwesomeIcon icon={faBootstrap} style={{color: "#563d7c",}} />,
             <FontAwesomeIcon icon={faNpm} style={{color: "#CC3534"}} />,
@@ -126,7 +137,7 @@ const projects = [{
   joke: false, 
   github: `https://github.com/IrgenWiigSorensen/My-E-Commerce-App`  
 }, {
-  project: `Remebr'All`,
+  project: `Remembr'All`,
   info: `A 10-day exam project: A web-based platform that allows users to set reminders that notify based on desired time and location.
           React, NodeJS, Express, Nodemailer, Google maps API ++`, 
   img: `${remembrallIMG}`,
@@ -153,3 +164,17 @@ export {
   skills,
   projects
 };
+
+// Let's collaborate to turn your web ideas into reality and make a lasting impact online.
+
+// I specialize in building responsive websites that are designed to scale effectively across various devices and screen sizes. My development process incorporates modern frameworks and technologies to ensure optimal performance and user experience.
+
+// On the front-end, I utilize industry-standard frameworks and libraries, such as React, Angular, or Vue.js, to create dynamic and interactive user interfaces. These frameworks enable me to build responsive designs that adapt seamlessly to different devices, including desktops, tablets, and smartphones.
+
+// For the back-end, I have extensive experience in developing robust application backends using Node.js and Express.js. These technologies allow me to build scalable and efficient server-side solutions, ensuring high-performance and smooth data handling.
+
+// In terms of databases, I have proficiency in working with both relational databases, such as PostgreSQL, as well as NoSQL databases like Firebase. I can design and implement database structures that align with your application's requirements, providing efficient data storage and retrieval.
+
+// By leveraging these technologies and frameworks, I can deliver modern and feature-rich web applications that cater to your specific needs. Whether you require a custom e-commerce platform, a content management system, or any other type of web application, I have the skills and expertise to bring your vision to life.
+
+// I am passionate about creating exceptional digital experiences and always strive to stay updated with the latest industry trends and best practices. Let's collaborate to build a powerful and visually appealing website that stands out and achieves your business goals.

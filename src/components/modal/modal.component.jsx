@@ -1,49 +1,52 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import "./modal.styles.scss";
+import JokeTeller from "../jokeTeller/jokeTeller.component";
 
-const Modal = ({toggle}) => {
+const Modal = () => {
   const [modal, setModal] = useState(false);
 
-  console.log('reached modal component')
-  console.log(toggle)
+  const refModal = useRef(null);
 
-  if(toggle) {
-    console.log('reached toggle modal component')
-    setModal(!modal);
-  }
-
-  const toggleModal = () => {
-    setModal(!modal);
+  const toggleOutsideModal = (e) => {
+    if(refModal.current?.contains(e.target)) {
+      return;
+    } else{
+        setModal(!modal);
+      }
   };
 
-  if(modal) {
-    document.body.classList.add('active-modal')
-  } else {
-    document.body.classList.remove('active-modal')
+  const toggleModalButton = () => {
+    setModal(!modal);
   }
+
+  useEffect(() => {
+    if(modal) {
+      document.body.classList.add('active-modal')
+    } else {
+      document.body.classList.remove('active-modal')
+    }
+  }, [modal])
+
 
   return (
     <>
-      <button onClick={toggleModal} className="btn-modal">
+      <button onClick={toggleModalButton} className="project-button"> 
         Joke
       </button>
 
       {modal && (
-        <div className="modal">
-          <div onClick={toggleModal} className="overlay"></div>
-          <div className="modal-content">
-            <h2>Hello Modal</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
-            </p>
-            <button className="close-modal" onClick={toggleModal}>
+        <div onClick={toggleOutsideModal} className="modal">
+          {/* <div onClick={toggleModal} className="overlay"></div> */}
+          <div className="modal-content" ref={refModal}>
+              <JokeTeller  />
+              <div onClick={toggleModalButton} className="modal-menu-bars">
+                <div className={`modal-menu-bar1`}></div>
+                <div className={`modal-menu-bar2`}></div>
+                <div className={`modal-menu-bar3`}></div>
+              </div>
+            {/* <button className="close-modal" onClick={toggleModal}>
               CLOSE
-            </button>
+            </button> */}
           </div>
         </div>
       )}
