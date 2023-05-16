@@ -72,3 +72,62 @@
   }
 }
 
+@media only screen and (max-width: 991px) {
+
+  .about-section {
+    background-color: var(--primaryColor);
+    padding: 0 10% 5% 10%;
+    width: 100%;
+  
+    // First container
+    .about-container-1 {
+
+      .left-inner-container {
+        font-size: 0.8rem;
+        padding: 5% 0 0 2%;
+
+        h1 {
+          font-size: 0.8rem;
+        }
+      }
+  
+      .right-inner-container {
+        padding: 5% 0.5% 1rem 1%;
+      }
+    }
+  
+    // Second container
+    .about-container-2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+  
+      .left-inner-container {
+        font-size: 0.6rem;
+        max-width: 100%;
+      }
+  
+      .right-inner-container {
+        padding: 10% 0 0 1%;
+        width: 100%;
+        max-width: 100%;
+  
+        p{
+          font-size: 0.5rem;
+        }
+       
+        .work-experience {
+          padding-bottom: 1.5rem;
+  
+          h5 {
+            border-bottom: 2px solid var(--secondaryColor);
+            padding-bottom: 6px;
+            font-size: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+
+}
+

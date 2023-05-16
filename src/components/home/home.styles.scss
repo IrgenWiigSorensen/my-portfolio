@@ -54,6 +54,60 @@
 
 
 /* Media Query: Large Smartphone (Vertical) */
+@media only screen and (max-width: 991px) {
+  
+.home-section {
+  background-image: url("https://images.unsplash.com/photo-1581453904507-626ddb717f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+  background-size:cover;
+  color: var(--secondaryColor);
+  width: 100%;
+
+  .dark-overlay {
+    background: var(--primaryColor);
+    filter: opacity(35%);
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+  }
+    
+    .intro-text {
+      opacity: none; 
+      font-size: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 15%;
+      z-index: 4;
+
+      div {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0; 
+      }
+  
+      p {
+        margin: 0;
+        font-weight: 500;
+        text-shadow: 1px 1px var(--secondaryColor);
+      }
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        padding: 2% 0; 
+        margin: 0;
+        text-shadow: 1px 1px var(--secondaryColor);
+      }
+  }
+}
+
+}
+
+
 @media (max-width: 600px) {
   .home-section {
     top: 1rem;

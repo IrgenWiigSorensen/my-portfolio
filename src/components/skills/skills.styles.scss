@@ -167,6 +167,153 @@
     }
   }
 
+  @media only screen and (max-width: 991px) {
+
+  .skills-section {
+  
+    .skills-container {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+   
+      .left-inner-container {
+        max-width: 100%;
+        // height: auto;
+        font-size: 0.6rem;
+
+        .skill-text-box {
+          padding: 0px;
+
+          p{
+            font-size: 0.5rem;
+          }
+        }
+      }
+      
+      .right-inner-container {
+        max-width: 100vw;
+        height: 40vh; 
+        display: flex;
+        flex-wrap: wrap;
+
+        .scroll-parent {
+          position: relative;
+          min-width: 100%;
+          width: 70vw;
+          height: 100%;
+          overflow: hidden;
+
+          .primary-0 {
+            animation: primary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 0%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+          }
+          
+          .secondary-0 {
+            animation: secondary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 0%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+          }
+
+          .primary-1 {
+            animation: primary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 30%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+          }
+          
+          .secondary-1 {
+            animation: secondary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 30%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+ 
+          }
+
+          .primary-2 {
+            animation: primary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 60%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+          }
+          
+          .secondary-2 {
+            animation: secondary 30s linear infinite;
+            position: absolute;
+            left: 100%;
+            top: 60%;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+          }
+
+          @keyframes primary {
+            0% {
+              left: 0%;
+            }
+            100% {
+              left: -100%;
+            }
+          }
+          
+          @keyframes secondary {
+            0% {
+              left: 100%;
+            }
+            100% {
+              left: 0%;
+            }
+          }
+          
+          
+          .skill-icon-box {
+            max-width: 17rem; 
+            height: 5rem;
+            display: flex;
+            padding: 0;
+            justify-content: space-around;
+          
+            .skill-icon {
+              width: auto;
+              height: auto;
+              padding: 2%;
+              margin: 10px;
+              border: 2px solid var(--secondaryColor);
+              
+              svg {
+                width: 100%;
+                height: 100%;
+                padding: 2px;
+              }
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }  
+}
+
 
 
 
