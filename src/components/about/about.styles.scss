@@ -93,6 +93,10 @@
   
       .right-inner-container {
         padding: 5% 0.5% 1rem 1%;
+
+        img {
+          width: 100%;
+        }
       }
     }
   
@@ -108,21 +112,22 @@
       }
   
       .right-inner-container {
-        padding: 10% 0 0 1%;
+        padding: 0 0 0 1%;
         width: 100%;
         max-width: 100%;
   
         p{
-          font-size: 0.5rem;
+          font-size: 0.6rem;
         }
        
         .work-experience {
-          padding-bottom: 1.5rem;
+          padding-bottom: 0.5rem;
   
           h5 {
             border-bottom: 2px solid var(--secondaryColor);
             padding-bottom: 6px;
-            font-size: 0.5rem;
+            font-size: 0.6rem;
+            // text-transform: uppercase;
           }
         }
       }

@@ -61,6 +61,7 @@
   background-size:cover;
   color: var(--secondaryColor);
   width: 100%;
+  min-height: 100vh;
 
   .dark-overlay {
     background: var(--primaryColor);
