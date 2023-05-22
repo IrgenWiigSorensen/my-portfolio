@@ -1,5 +1,5 @@
 footer {
-  height: 10vh;
+  // height: 20vh;
   background-color: var(--primaryColor);
   font-family: 'Open Sans', sans-serif;
   font-size: 600;
@@ -12,6 +12,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items:last baseline;
     padding: 2.3rem 1rem;
 
     .footer-logo-name {

@@ -113,8 +113,8 @@ const skills = [{
   info: {
     text: `I have gained expertise in leveraging Bootstrap, NPM, Sass, Stripe, and Styled Components to enhance web development projects. 
     Utilizing Bootstrap, I create designs that are not only responsive but also visually appealing. 
-    NPM helps me efficiently manage dependencies and integrate valuable packages. With Sass, I streamline the CSS workflow by taking advantage of its advanced features. 
-    Integrating Stripe ensures secure and seamless online payments. Lastly, using Styled Components, I construct reusable and modular styling components. 
+    NPM helps me efficiently manage dependencies and integrate valuable packages. With Sass or styled components, I streamline the CSS workflow by taking advantage of its advanced features. 
+    Integrating Stripe ensures secure and seamless online payments.
     `,
     icons: [
             <FontAwesomeIcon icon={faBootstrap} style={{color: "#563d7c",}} />,
