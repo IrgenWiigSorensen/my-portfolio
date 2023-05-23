@@ -11,19 +11,25 @@
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    
 
     .left-inner-container {
       max-width: 50%;
       height: auto;
-      font-size: 1.5rem;
       padding: 15% 0 0 2%;
+
+      h3 {
+        font-size: var(--primaryH3);
+     
+      }
+      h2 {
+        font-size: var(--primaryH2);
+      }
     }
 
     .right-inner-container {
       max-width: 50%;
       height: auto; 
-      padding: 1% 0.5% 1rem 1%;
+      padding: 1% 0.5% 1% 1%;
       img {
         height: auto;
         width: 90%;
@@ -41,21 +47,27 @@
     padding: 0;
 
     .left-inner-container {
-      max-width: 50%;
+      max-width: 40%;
       height: auto;
-      font-size: 1rem;
       padding: 10% 0 0 2%;
+
+      h3 {
+        font-size: var(--primaryH3);
+        // text-transform: uppercase;
+      }
     }
 
     .right-inner-container {
-      max-width: 50%;
+      max-width: 60%;
       height: auto; 
       padding: 10% 0 0 1%;
 
       p{
-        font-size: 1rem;
+        // font-size: 1rem;
+        font-size: var(--primaryParagraph);
         letter-spacing: 2px;
-        font-weight: 600;
+        // font-weight: 600;
+        white-space:pre-line;
       }
      
 
@@ -65,14 +77,14 @@
         h5 {
           border-bottom: 2px solid var(--secondaryColor);
           padding-bottom: 8px;
-          font-size: 1rem;
+          font-size: var(--primaryH5);
         }
       }
     }
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 680px) {
 
   .about-section {
     background-color: var(--primaryColor);
@@ -81,17 +93,16 @@
   
     // First container
     .about-container-1 {
+      display: flex;
+      flex-wrap: wrap-reverse;
 
       .left-inner-container {
-        font-size: 0.8rem;
-        padding: 5% 0 0 2%;
-
-        h1 {
-          font-size: 0.8rem;
-        }
+        max-width: 100%;
+        padding: 0 0 0 2%;
       }
   
       .right-inner-container {
+        max-width: 100%;
         padding: 5% 0.5% 1rem 1%;
 
         img {
@@ -107,7 +118,6 @@
       justify-content: flex-start;
   
       .left-inner-container {
-        font-size: 0.6rem;
         max-width: 100%;
       }
   
@@ -115,19 +125,13 @@
         padding: 0 0 0 1%;
         width: 100%;
         max-width: 100%;
-  
-        p{
-          font-size: 0.6rem;
-        }
        
         .work-experience {
           padding-bottom: 0.5rem;
   
           h5 {
-            border-bottom: 2px solid var(--secondaryColor);
+            margin-bottom: 2%;
             padding-bottom: 6px;
-            font-size: 0.6rem;
-            // text-transform: uppercase;
           }
         }
       }

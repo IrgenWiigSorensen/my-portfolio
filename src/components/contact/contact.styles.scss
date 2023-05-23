@@ -17,12 +17,22 @@
       height: auto;
       color: var(--secondaryColor);
       padding: 0 0 0 2%;
+
+      h3 {
+        font-size: var(--primaryH3);
+        margin: 0;
+      }
+
+      h5 {
+        font-size: var(--primaryH5);
+        margin: 2% 0;
+      }
       
       p{
-        font-size: 1rem;
+        font-size: var(--primaryParagraph);
         letter-spacing: 2px;
-        font-weight: 600;
-        padding-right: 20%;
+        padding-right: 10%;
+        margin: 0;
       }
     }
     
@@ -38,7 +48,7 @@
         background-color: var(--primaryColor);
         border-radius: 0 !important;
         border: 1px solid var(--secondaryColor);
-        font-size: 1rem;
+        font-size: var(--primaryParagraph);
       }
       
       .contact-form {
@@ -55,7 +65,7 @@
           width: 100%;
           margin: 2rem 0 1rem;
           padding: 1rem .75rem 5rem;
-          font-size: 1.1rem;
+          font-size: var(--primaryParagraph);
         }
 
         .btn-one {
@@ -96,22 +106,7 @@
         height: auto;
         color: var(--secondaryColor);
         padding: 0 0 4% 2%;
-        font-size: 1rem;
 
-        h2{
-          font-size: 1rem;
-        }
-
-        h3 {
-          font-size: 0.8rem;
-        }
-        
-        p{
-          font-size: 0.5rem;
-          letter-spacing: 2px;
-          font-weight: 600;
-          padding-right: 0;
-        }
       }
       
       .right-inner-container {

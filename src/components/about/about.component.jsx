@@ -21,8 +21,8 @@ const About = () => {
         {/* First about me container with typewriter and img */}
         <div className="about-container-1">
           <div className='left-inner-container'>
-            <h4>{title}</h4>
-            <h1>
+            <h3>{title}</h3>
+            <h2>
               <Typewriter
               options={{
                 strings: [
@@ -37,7 +37,7 @@ const About = () => {
               }}
             />
               
-              </h1>
+              </h2>
           </div>
           <div className='right-inner-container'>
             <img src={profileimg} alt="Profile picture" />
@@ -47,7 +47,7 @@ const About = () => {
         {/* Second about me container with a shot info */}
         <div className="about-container-2">
           <div className='left-inner-container'>
-            <h2>A bit about myself</h2>
+            <h3>A bit about myself</h3>
           </div>
           <div className='right-inner-container'>
             <p>{aboutMe}</p>
@@ -57,7 +57,7 @@ const About = () => {
         {/* Second about me container with portfolio - work experience*/}
         <div className="about-container-2">
           <div className='left-inner-container'>
-            <h2>Work Timeline</h2>
+            <h3>Work Timeline</h3>
           </div>
           <div className='right-inner-container'>
           {workExperience.map((data, i) => {
@@ -73,7 +73,7 @@ const About = () => {
          {/* Third about me container with portfolio - education*/}
          <div className="about-container-2">
           <div className='left-inner-container'>
-            <h2>Education</h2>
+            <h3>Education</h3>
           </div>
           <div className='right-inner-container'>
           {education.map((data, i) => {

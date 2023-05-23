@@ -38,8 +38,9 @@
 
       .project-bottom-container {
         display: flex;
-        flex-direction: column;
-        height: 280px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
 
       .project-text-container {
         padding: 10px 20px 0 20px;
@@ -55,9 +56,14 @@
         }
       }
         .button-container {
+          min-height: 3vh; 
+          height: 100%;
+          align-self: flex-end;
           display: flex;
           justify-content: center;
           padding: 0 10px 10px;
+          width: 100%;
+          margin-top: auto;
           
           .project-button {
             margin:0 10px;
@@ -77,7 +83,6 @@
             }
             
             a {
-              margin-top: auto;
               text-decoration: none;
 
               &:visited {
@@ -178,6 +183,7 @@
             a {
               text-decoration: none;
               text-align: center;
+              color: var(--secondaryColor);
 
               &:visited {
                 text-decoration: none;
@@ -188,6 +194,7 @@
                 height: 100%;
                 width: 100%;
                 padding: .3rem 1.0rem;
+                color: var(--secondaryColor);
               }
             }
           }

@@ -32,13 +32,11 @@ const introdata = {
       third: "I develop mobile apps",
       fourth: "I love to learn"
   },
-  aboutMe: `I'm a fullstack developer working with languages like TypeScript and JavaScript, and frameworks like React and Node.js.
-            After graduating from NMBU with a masters degree in global development studies i spent a couple of years working for Red Cross and Blue Cross with different 
-            humantitarian activites for children and low income families. 
-            In the summer of 2022, I decided that it's time for me to go fulltime into IT and in February 2023 I graduated from Brights's accelerated learning program. 
-            The program contained over 500 hours with active learning around the languages JavasCript, CSS and HTML - creating front-end design in React, and back end with Node.JS and postgreSQL. 
-            I love learning and jumping into new and exciting projects, as well as that my background from a multitude of different sectors, allows me to quickly join any team in their ongoing processes.
-            Take a look around and contact me if I seem like a good fit for your team.`
+  aboutMe: `I'm a fullstack developer working with languages like TypeScript and JavaScript, and frameworks like React and Node.js. After graduating from NMBU with a masters degree in global development studies i spent a couple of years working for Red Cross and Blue Cross with different humantitarian activites for children and low income families.
+
+            In the summer of 2022, I decided that it's time for me to go fulltime into IT and in February 2023 I graduated from Brights's accelerated learning program. The program contained over 500 hours with active learning around the languages JavasCript, CSS and HTML - creating front-end design in React, and back end with Node.JS and postgreSQL. 
+
+            I love learning and jumping into new and exciting projects, as well as that my background from a multitude of different sectors, allows me to quickly join any team in their ongoing processes. Take a look around and contact me if I seem like a good fit for your team.`
 };
 
 const socialprofils = {
@@ -70,11 +68,11 @@ const education = [{
 },
 {
   title: "2018 - 2020: Global Development Studies at NMBU",
-  description: "Masters Degree in Global Development Studies",
+  description: "Masters Degree in Global Development Studies.",
 },
 {
   title: "2015 - 2018: Development Studies at OsloMet",
-  description: "Bachelor Degree in International Development Studies",
+  description: "Bachelor Degree in International Development Studies.",
 },
 ];
 

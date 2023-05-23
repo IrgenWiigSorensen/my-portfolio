@@ -38,9 +38,9 @@ const Contact = () => {
       </div>
       <div className="contact-container">
         <div className='left-inner-container'>
-          <h2>Get in touch</h2>
-          <h3>Email: irgenws@icloud.com</h3>
-          <h3>Phone: +47 48 36 36 81</h3>
+          <h3>Get in touch</h3>
+          <h5>Email: irgenws@icloud.com</h5>
+          <h5>Phone: +47 48 36 36 81</h5>
           <p>I would be delighted to collaborate with you on creating a website that aligns with your business goals and delivers an exceptional user experience. If you are looking for a dedicated partner to help elevate your web projects, I would be veri interested in connecting with you. Please feel free to reach out, and we can explore the possibilities together.</p>
         </div>
         <div className='right-inner-container'>

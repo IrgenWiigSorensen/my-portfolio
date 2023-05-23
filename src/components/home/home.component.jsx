@@ -1,4 +1,6 @@
 import ParticlesBackground from '../particles/particles.component';
+import Div100vh from 'react-div-100vh'
+
 import './home.styles.scss'
 
 
@@ -7,9 +9,11 @@ const Home = () => {
   return(
 
   <section className='home-section' id='home'>
-    <div className="dark-overlay">
+    <Div100vh className="dark-overlay">
+    {/* <div className="dark-overlay"> */}
      <ParticlesBackground />
-    </div>
+    {/* </div> */}
+    </Div100vh>
     <div className='intro-text'>
       <div>
         <p >Hello, World!</p>
