@@ -75,7 +75,10 @@
             background-color: var(--primaryColor);
             border-radius: 0;
             border: 1px solid var(--secondaryColor);
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             &:hover {
               transition: transform 1s ease;
               transform: scale(1.1);
