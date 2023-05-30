@@ -9,11 +9,11 @@ const Home = () => {
   return(
 
   <section className='home-section' id='home'>
-    <Div100vh className="dark-overlay">
-    {/* <div className="dark-overlay"> */}
-     <ParticlesBackground />
-    {/* </div> */}
-    </Div100vh>
+    {/* <Div100vh className="dark-overlay"> */}
+    <div className="dark-overlay">
+      <ParticlesBackground />
+    </div>
+    {/* </Div100vh> */}
     <div className='intro-text'>
       <div>
         <p >Hello, World!</p>

@@ -40,21 +40,21 @@ const Projects = () => {
 
                     <div className="button-container">
                         {website && (
-                            <div className='project-button'>
+                            <button className='project-button'>
                               <a href={website}>
                                 View
                               </a>
-                            </div>
+                            </button>
                         )}
                         {joke && (
                               <Modal></Modal>
                         )}
                         {github && (
-                            <div className='project-button'>
+                            <button className='project-button'>
                               <a href={github}>
                                 <FaGithub />
                               </a>
-                            </div>
+                            </button>
                         )}
                     </div> 
                   </div>

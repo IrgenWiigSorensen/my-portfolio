@@ -95,7 +95,7 @@ const skills = [{
   {skill: 'Frameworks and clouds',
   info: {
     text: `
-    I have honed my skills in building responsive websites that effectively scale across devices using popular frameworks such as React, Angular, or Vue.js. 
+    I have honed my skills in building responsive websites that effectively scale across devices using popular frameworks such as React and Redux. 
     In addition, I have experience working with backend technologies like Node.js, Express.js, and databases such as PostgreSQL and Firebase. 
     I am passionate about creating exceptional digital experiences and always strive to stay updated with the latest industry trends and best practices.
     `,
@@ -109,7 +109,7 @@ const skills = [{
   }},
   {skill: 'Libraries and tools',
   info: {
-    text: `I have gained expertise in leveraging Bootstrap, NPM, Sass, Stripe, and Styled Components to enhance web development projects. 
+    text: `I have gained experience in leveraging Bootstrap, NPM, Sass, Stripe, and Styled Components to enhance web development projects. 
     Utilizing Bootstrap, I create designs that are not only responsive but also visually appealing. 
     NPM helps me efficiently manage dependencies and integrate valuable packages. With Sass or styled components, I streamline the CSS workflow by taking advantage of its advanced features. 
     Integrating Stripe ensures secure and seamless online payments.

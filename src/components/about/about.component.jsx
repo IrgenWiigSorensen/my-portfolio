@@ -21,7 +21,7 @@ const About = () => {
         {/* First about me container with typewriter and img */}
         <div className="about-container-1">
           <div className='left-inner-container'>
-            <h3>{title}</h3>
+            <h2>{title}</h2>
             <h2>
               <Typewriter
               options={{
