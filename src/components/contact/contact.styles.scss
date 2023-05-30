@@ -10,7 +10,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 6%;
+    margin-top: 3%;
  
     .left-inner-container {
       max-width: 50%;
@@ -21,6 +21,7 @@
       h3 {
         font-size: var(--primaryH3);
         margin: 0;
+        margin-bottom: 5%;
       }
 
       h5 {
@@ -31,7 +32,7 @@
       p{
         font-size: var(--primaryParagraph);
         letter-spacing: 2px;
-        padding-right: 10%;
+        padding-right: 7%;
         margin: 0;
       }
     }
@@ -39,7 +40,7 @@
     .right-inner-container {
       max-width: 50%;
       height: auto; 
-      padding: 1% 0.5% 1rem 0.5rem;
+      padding: 7% 0.5% 1rem 0.5rem;
       
       .contact-form .input-box {
         padding: 1rem .75rem;

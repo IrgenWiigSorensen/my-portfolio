@@ -4,12 +4,12 @@
 * {
   box-sizing: border-box;
 
-  --primaryParagraph: calc(0.6rem + 0.7vw);
+  --primaryParagraph: calc(0.7rem + 0.5vw);
   --primaryH1: calc(1rem + 2vw);
-  --primaryH2: calc(1rem + 1.6vw);
-  --primaryH3: calc(0.7rem + 1.5vw);
+  --primaryH2: calc(1rem + 1.5vw);
+  --primaryH3: calc(0.7rem + 1.4vw);
   --primaryH4: calc(0.7rem + 1.1vw);
-  --primaryH5: calc(0.7rem + 0.8vw);
+  --primaryH5: calc(0.7rem + 0.7vw);
 }
 
 .App {
