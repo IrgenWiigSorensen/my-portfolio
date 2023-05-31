@@ -1,59 +1,114 @@
-
-
-
-
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('../../assets/robot.gif');
+  background: url("../../assets/robot.gif");
   background-size: contain;
   background-position: left center;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 
- .jokeButton {
+  .jokeButton {
     cursor: pointer;
-    outline: none; 
-    width: 200px; 
-    height: 50px; 
-    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    font-family: "Courier New", Courier, monospace;
     font-size: 20px;
     color: white;
     background-color: #ff3482;
-    border: none; 
+    border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
     z-index: 3;
     margin-left: 20%;
-  
 
-  &:hover {
-    filter: brightness(95%);
-  }
+    &:hover {
+      filter: brightness(95%);
+    }
 
-  &:active {
-    transform: scale(0.98);
-  }
+    &:active {
+      transform: scale(0.98);
+    }
 
-  &:disabled {
-    cursor: default; 
-    filter: brightness(30%)
+    &:disabled {
+      cursor: default;
+      filter: brightness(30%);
+    }
   }
-}
 }
 
 /* Media Query: Tablet or Smaller */
+@media screen and (max-width: 1500px) {
+  .container {
+    // background-size: cover;
+    // background-position: center center;
+
+    .jokeButton {
+      box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+      margin-left: 40%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    background-size: cover;
+    background-position: center center;
+
+    .jokeButton {
+      box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+      margin-top: 60%;
+      margin-left: 0;
+    }
+  }
+}
 
 @media screen and (max-width: 1000px) {
   .container {
-      background-size: cover;
-      background-position: center center;
-  }
+    background-size: cover;
+    background-position: center center;
 
-  .jokeButton {
+    .jokeButton {
       box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+      margin-top: 80%;
+      margin-left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    background-size: cover;
+    background-position: center center;
+
+    .jokeButton {
+      box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+      margin-top: 100%;
+      margin-left: unset;
+      width: 150px;
+      height: 40px;
+      // font-family: "Courier New", Courier, monospace;
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    background-size: cover;
+    background-position: center center;
+
+    .jokeButton {
+      box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+      margin-top: 140%;
+      margin-left: unset;
+      width: 150px;
+      height: 40px;
+      // font-family: "Courier New", Courier, monospace;
+      font-size: 16px;
+    }
   }
 }
