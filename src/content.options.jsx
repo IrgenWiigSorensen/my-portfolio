@@ -1,17 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faNode,
-  faJsSquare,
-  faBootstrap,
-  faStripe,
-  faSass,
-  faHtml5,
-  faCss3,
-  faNpm,
-} from "@fortawesome/free-brands-svg-icons";
-import typeScriptLogo from "./assets/Typescript_logo_2020.svg";
-import typeScriptWhiteLogo from "./assets/Typescript_logo_2020_white.svg";
 import postgreSQLLogo from "./assets/PostgreSQL_logo.svg";
 import firebaseLogo from "./assets/firebase-logo.svg";
 import remembrallIMG from "./assets/Remembrall3.png";
@@ -49,7 +35,7 @@ const introdata = {
   animated: {
     first: "I love coding",
     second: "I code cool websites",
-    third: "I develop mobile apps",
+    third: "I develop apps",
     fourth: "I love to learn",
   },
   aboutMe: `I'm a fullstack developer working with languages like TypeScript and JavaScript, and frameworks like React and Node.js. After graduating from NMBU with a masters degree in global development studies i spent a couple of years working for Red Cross and Blue Cross with different humantitarian activites for children and low income families.
@@ -113,14 +99,10 @@ const skills = [
     Whether you're seeking stunning designs, seamless user interactions, or robust data management, I have the skills necessary to deliver exceptional results. 
     `,
       icons: [
-        // <FontAwesomeIcon icon={faHtml5}  style={{color: "#f06529",}}/>,
         <img src={HTMLIMG} alt="HTML logo" />,
         <img src={CSSIMG} alt="CSS logo" />,
         <img src={JSIMG} alt="JavaScript logo" />,
         <img src={TSIMG} alt="TypeScript logo" />,
-        // <FontAwesomeIcon icon={faCss3} style={{ color: "#264de4" }} />,
-        // <FontAwesomeIcon icon={faJsSquare} style={{ color: "#F0DB4F" }} />,
-        // <TypescriptColor />,
         <img src={postgreSQLLogo} alt="PostgreSQL logo" />,
       ],
     },
@@ -134,10 +116,8 @@ const skills = [
     I am passionate about creating exceptional digital experiences and always strive to stay updated with the latest industry trends and best practices.
     `,
       icons: [
-        // <FontAwesomeIcon icon={faReact} style={{ color: "#61DBFB" }} />,
         <img src={reactIMG} alt="React logo" />,
         <img src={nodeIMG} alt="NodeJS logo" />,
-        // <FontAwesomeIcon icon={faNode} style={{ color: "#68a063" }} />,
         <img src={reduxIMG} alt="Redux logo" />,
         <img src={expressIMG} alt="Express logo" />,
         <img src={firebaseLogo} alt="Firebase logo" />,
@@ -153,14 +133,10 @@ const skills = [
     Integrating Stripe ensures secure and seamless online payments.
     `,
       icons: [
-        // <FontAwesomeIcon icon={faBootstrap} style={{ color: "#563d7c" }} />,
         <img src={bootstrapIMG} alt="Bootstrap logo" />,
         <img src={npmIMG} alt="NPM logo" />,
         <img src={sassIMG} alt="Sass logo" />,
         <img src={stripeIMG} alt="Stripe logo" />,
-        // <FontAwesomeIcon icon={faNpm} style={{ color: "#CC3534" }} />,
-        // <FontAwesomeIcon icon={faSass} style={{ color: "#CD6799" }} />,
-        // <FontAwesomeIcon icon={faStripe} style={{ color: "#A976A3" }} />,
         <img src={styledComponentsIMG} alt="Styled Components logo" />,
       ],
     },
@@ -207,17 +183,3 @@ export {
   skills,
   projects,
 };
-
-// Let's collaborate to turn your web ideas into reality and make a lasting impact online.
-
-// I specialize in building responsive websites that are designed to scale effectively across various devices and screen sizes. My development process incorporates modern frameworks and technologies to ensure optimal performance and user experience.
-
-// On the front-end, I utilize industry-standard frameworks and libraries, such as React, Angular, or Vue.js, to create dynamic and interactive user interfaces. These frameworks enable me to build responsive designs that adapt seamlessly to different devices, including desktops, tablets, and smartphones.
-
-// For the back-end, I have extensive experience in developing robust application backends using Node.js and Express.js. These technologies allow me to build scalable and efficient server-side solutions, ensuring high-performance and smooth data handling.
-
-// In terms of databases, I have proficiency in working with both relational databases, such as PostgreSQL, as well as NoSQL databases like Firebase. I can design and implement database structures that align with your application's requirements, providing efficient data storage and retrieval.
-
-// By leveraging these technologies and frameworks, I can deliver modern and feature-rich web applications that cater to your specific needs. Whether you require a custom e-commerce platform, a content management system, or any other type of web application, I have the skills and expertise to bring your vision to life.
-
-// I am passionate about creating exceptional digital experiences and always strive to stay updated with the latest industry trends and best practices. Let's collaborate to build a powerful and visually appealing website that stands out and achieves your business goals.
