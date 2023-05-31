@@ -59,47 +59,6 @@
           height: 100%;
         }
 
-        // .primary-1 {
-        //   animation: primary 30s linear infinite;
-        //   position: absolute;
-        //   left: 100%;
-        //   top: 30%;
-        //   white-space: nowrap;
-        //   width: 100%;
-        //   overflow: hidden;
-        // }
-
-        // .secondary-1 {
-        //   animation: secondary 30s linear infinite;
-        //   position: absolute;
-        //   left: 100%;
-        //   top: 30%;
-        //   white-space: nowrap;
-        //   width: 100%;
-        //   overflow: hidden;
-        //   // animation-delay: 14s;
-        // }
-
-        // .primary-2 {
-        //   animation: primary 30s linear infinite;
-        //   position: absolute;
-        //   left: 100%;
-        //   top: 60%;
-        //   white-space: nowrap;
-        //   width: 100%;
-        //   overflow: hidden;
-        // }
-
-        // .secondary-2 {
-        //   animation: secondary 30s linear infinite;
-        //   position: absolute;
-        //   left: 100%;
-        //   top: 60%;
-        //   white-space: nowrap;
-        //   width: 100%;
-        //   overflow: hidden;
-        // }
-
         @keyframes primary {
           0% {
             left: 0%;
@@ -160,26 +119,24 @@
 
 @media only screen and (max-width: 1000px) {
   .skills-section {
-    // min-height: unset;
-
     .skills-container {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
 
-      .left-inner-container {
+      .first-inner-container {
         max-width: 100%;
-        // height: auto;
+        height: auto;
 
         .skill-text-box {
           padding: 0;
         }
       }
 
-      .right-inner-container {
+      .second-inner-container {
         max-width: 100vw;
         min-height: unset;
-        height: 60vh;
+        height: 10vh;
         display: flex;
         flex-wrap: wrap;
 
@@ -191,101 +148,12 @@
           overflow: hidden;
           max-height: 20vh;
 
-          // .primary-0 {
-          //   animation: primary 30s linear infinite;
-          //   position: absolute;
-          //   left: 100%;
-          //   top: 0%;
-          //   white-space: nowrap;
-          //   width: 100%;
-          //   overflow: hidden;
-          // }
-
-          // .secondary-0 {
-          //   animation: secondary 30s linear infinite;
-          //   position: absolute;
-          //   left: 100%;
-          //   top: 0%;
-          //   white-space: nowrap;
-          //   width: 100%;
-          //   overflow: hidden;
-          // }
-
-          // .primary-1 {
-          //   animation: primary 30s linear infinite;
-          //   position: absolute;
-          //   left: 100%;
-          //   top: 30%;
-          //   white-space: nowrap;
-          //   width: 100%;
-          //   overflow: hidden;
-          // }
-
-          // .secondary-1 {
-          //   animation: secondary 30s linear infinite;
-          //   position: absolute;
-          //   left: 100%;
-          //   top: 30%;
-          //   white-space: nowrap;
-          //   width: 100%;
-          //   overflow: hidden;
-
-          // }
-
-          // .primary-2 {
-          //   animation: primary 30s linear infinite;
-          //   position: absolute;
-          //   left: 100%;
-          //   top: 60%;
-          //   white-space: nowrap;
-          //   width: 100%;
-          //   overflow: hidden;
-          // }
-
-          // .secondary-2 {
-          //   animation: secondary 30s linear infinite;
-          //   position: absolute;
-          //   left: 100%;
-          //   top: 60%;
-          //   white-space: nowrap;
-          //   width: 100%;
-          //   overflow: hidden;
-          // }
-
-          // @keyframes primary {
-          //   0% {
-          //     left: 0%;
-          //   }
-          //   100% {
-          //     left: -100%;
-          //   }
-          // }
-
-          // @keyframes secondary {
-          //   0% {
-          //     left: 100%;
-          //   }
-          //   100% {
-          //     left: 0%;
-          //   }
-          // }
-
-          //   svg {
-          //     width: 100%;
-          //     height: 100%;
-          //     padding: 2px;
-          //   }
-          //   img {
-          //     width: 100%;
-          //     height: 100%;
-          //     padding: 5%;
-
           .skill-icon-box {
             width: 100%;
             max-height: 100%;
 
             .skill-icon {
-              padding: 0;
+              padding: 2%;
 
               svg {
                 width: 100%;
@@ -306,100 +174,48 @@
 
 @media only screen and (max-width: 480px) {
   .skills-section {
-    // min-height: unset;
-
     .skills-container {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-
-      .left-inner-container {
+      .first-inner-container {
         max-width: 100%;
-        // height: auto;
-        font-size: 0.6rem;
-        padding: 0;
-
-        .skill-text-box {
-          padding: 0;
-
-          p {
-            font-size: 0.5rem;
-          }
-        }
+        height: auto;
       }
 
-      .right-inner-container {
+      .second-inner-container {
+        // width: 100%;
+        // min-height: 10vh;
+        // display: flex;
+
         max-width: 100vw;
         min-height: unset;
-        height: 40vh;
+        height: 10vh;
         display: flex;
         flex-wrap: wrap;
 
         .scroll-parent {
           position: relative;
-          min-width: 100%;
-          width: 70vw;
-          height: 100%;
+          display: flex;
+          width: 100%;
+          min-height: 10vh;
           overflow: hidden;
 
-          .primary-0 {
+          .primary {
             animation: primary 30s linear infinite;
             position: absolute;
-            left: 100%;
-            top: 0%;
-            white-space: nowrap;
-            width: 100%;
             overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            width: fit-content;
+            height: 100%;
           }
 
-          .secondary-0 {
+          .secondary {
             animation: secondary 30s linear infinite;
             position: absolute;
-            left: 100%;
-            top: 0%;
-            white-space: nowrap;
-            width: 100%;
             overflow: hidden;
-          }
-
-          .primary-1 {
-            animation: primary 30s linear infinite;
-            position: absolute;
-            left: 100%;
-            top: 30%;
-            white-space: nowrap;
-            width: 100%;
-            overflow: hidden;
-          }
-
-          .secondary-1 {
-            animation: secondary 30s linear infinite;
-            position: absolute;
-            left: 100%;
-            top: 30%;
-            white-space: nowrap;
-            width: 100%;
-            overflow: hidden;
-          }
-
-          .primary-2 {
-            animation: primary 30s linear infinite;
-            position: absolute;
-            left: 100%;
-            top: 60%;
-            white-space: nowrap;
-            width: 100%;
-            overflow: hidden;
-          }
-
-          .secondary-2 {
-            animation: secondary 30s linear infinite;
-            position: absolute;
-            left: 100%;
-            top: 60%;
-            white-space: nowrap;
-            width: 100%;
-            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            width: fit-content;
+            height: 100%;
           }
 
           @keyframes primary {
@@ -421,27 +237,37 @@
           }
 
           .skill-icon-box {
-            max-width: 17rem;
-            height: 5rem;
-            display: flex;
-            padding: 0;
-            justify-content: space-around;
+            width: 100%;
+            max-height: 100%;
+            // min-height: 65px;
 
             .skill-icon {
-              width: auto;
-              height: auto;
-              padding: 2%;
-              margin: 10px;
+              width: 100%;
+              // height: auto;
+              // min-height: 65px;
+              padding: 1% 2%;
+              margin: 2%;
               border: 2px solid var(--secondaryColor);
 
               svg {
                 width: 100%;
                 height: 100%;
-                padding: 2px;
+                padding: 0;
               }
               img {
                 width: 100%;
                 height: 100%;
+                padding: 0;
+              }
+              &:hover {
+                svg {
+                  transition: transform 1s ease;
+                  transform: scale(1.2);
+                }
+                img {
+                  transition: transform 1s ease;
+                  transform: scale(1.2);
+                }
               }
             }
           }
