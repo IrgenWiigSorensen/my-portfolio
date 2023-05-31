@@ -22,19 +22,27 @@ import styledComponentsIMG from "./assets/styled-components.svg";
 import expressIMG from "./assets/icons8-express-js.svg";
 import HTMLIMG from "./assets/html-5.svg";
 import CSSIMG from "./assets/icons8-css3.svg";
+import JSIMG from "./assets/icons8-javascript.svg";
+import TSIMG from "./assets/icons8-typescript.svg";
+import reactIMG from "./assets/icons8-react.svg";
+import nodeIMG from "./assets/icons8-nodejs.svg";
+import bootstrapIMG from "./assets/icons8-bootstrap.svg";
+import npmIMG from "./assets/icons8-npm.svg";
+import sassIMG from "./assets/icons8-sass.svg";
+import stripeIMG from "./assets/Stripe.svg";
 
-import { useContext } from "react";
-import { ColorSchemeContext } from "./contexts/color-scheme.context";
+// import { useContext } from "react";
+// import { ColorSchemeContext } from "./contexts/color-scheme.context";
 
-const TypescriptColor = () => {
-  const { isDark } = useContext(ColorSchemeContext);
+// const TypescriptColor = () => {
+//   const { isDark } = useContext(ColorSchemeContext);
 
-  if (isDark) {
-    return <img src={typeScriptWhiteLogo} alt="typescript logo" />;
-  } else {
-    return <img src={typeScriptLogo} alt="typescript logo" />;
-  }
-};
+//   if (isDark) {
+//     return <img src={typeScriptWhiteLogo} alt="typescript logo" />;
+//   } else {
+//     return <img src={typeScriptLogo} alt="typescript logo" />;
+//   }
+// };
 
 const introdata = {
   title: "I’m Irgen Wiig Sørensen",
@@ -107,10 +115,12 @@ const skills = [
       icons: [
         // <FontAwesomeIcon icon={faHtml5}  style={{color: "#f06529",}}/>,
         <img src={HTMLIMG} alt="HTML logo" />,
-        <img src={CSSIMG} alt="HTML logo" />,
+        <img src={CSSIMG} alt="CSS logo" />,
+        <img src={JSIMG} alt="JavaScript logo" />,
+        <img src={TSIMG} alt="TypeScript logo" />,
         // <FontAwesomeIcon icon={faCss3} style={{ color: "#264de4" }} />,
-        <FontAwesomeIcon icon={faJsSquare} style={{ color: "#F0DB4F" }} />,
-        <TypescriptColor />,
+        // <FontAwesomeIcon icon={faJsSquare} style={{ color: "#F0DB4F" }} />,
+        // <TypescriptColor />,
         <img src={postgreSQLLogo} alt="PostgreSQL logo" />,
       ],
     },
@@ -124,8 +134,10 @@ const skills = [
     I am passionate about creating exceptional digital experiences and always strive to stay updated with the latest industry trends and best practices.
     `,
       icons: [
-        <FontAwesomeIcon icon={faReact} style={{ color: "#61DBFB" }} />,
-        <FontAwesomeIcon icon={faNode} style={{ color: "#68a063" }} />,
+        // <FontAwesomeIcon icon={faReact} style={{ color: "#61DBFB" }} />,
+        <img src={reactIMG} alt="React logo" />,
+        <img src={nodeIMG} alt="NodeJS logo" />,
+        // <FontAwesomeIcon icon={faNode} style={{ color: "#68a063" }} />,
         <img src={reduxIMG} alt="Redux logo" />,
         <img src={expressIMG} alt="Express logo" />,
         <img src={firebaseLogo} alt="Firebase logo" />,
@@ -141,10 +153,14 @@ const skills = [
     Integrating Stripe ensures secure and seamless online payments.
     `,
       icons: [
-        <FontAwesomeIcon icon={faBootstrap} style={{ color: "#563d7c" }} />,
-        <FontAwesomeIcon icon={faNpm} style={{ color: "#CC3534" }} />,
-        <FontAwesomeIcon icon={faSass} style={{ color: "#CD6799" }} />,
-        <FontAwesomeIcon icon={faStripe} style={{ color: "#A976A3" }} />,
+        // <FontAwesomeIcon icon={faBootstrap} style={{ color: "#563d7c" }} />,
+        <img src={bootstrapIMG} alt="Bootstrap logo" />,
+        <img src={npmIMG} alt="NPM logo" />,
+        <img src={sassIMG} alt="Sass logo" />,
+        <img src={stripeIMG} alt="Stripe logo" />,
+        // <FontAwesomeIcon icon={faNpm} style={{ color: "#CC3534" }} />,
+        // <FontAwesomeIcon icon={faSass} style={{ color: "#CD6799" }} />,
+        // <FontAwesomeIcon icon={faStripe} style={{ color: "#A976A3" }} />,
         <img src={styledComponentsIMG} alt="Styled Components logo" />,
       ],
     },
