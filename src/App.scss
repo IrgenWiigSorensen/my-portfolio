@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
@@ -21,38 +21,37 @@ html {
 }
 
 body {
-// ----------main colors-----------
-  --primaryColor:#000000;
-  --secondaryColor:#f5f5f5;
-  --navColor1:#21292c;
-  --navColor2:#076969;
-  --navColor3:#133175;
-  --navColor4:#AF780B;
-  --navColor5:#AF550B;
+  // ----------main colors-----------
+  --primaryColor: #000000;
+  --secondaryColor: #f5f5f5;
+  --navColor1: #21292c;
+  --navColor2: #076969;
+  --navColor3: #133175;
+  --navColor4: #af780b;
+  --navColor5: #af550b;
 
   margin: 0;
   // font-family: Nunito, sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: var(--primaryColor);
+  min-height: -webkit-fill-available;
 }
 
 body.dark {
-  --primaryColor:#f5f5f5;
-  --secondaryColor:#000000;
-  --navColor1:#21292c;
-  --navColor2:#076969;
-  --navColor3:#133175;
-  --navColor4:#AF780B;
-  --navColor5:#AF550B;
+  --primaryColor: #f5f5f5;
+  --secondaryColor: #000000;
+  --navColor1: #21292c;
+  --navColor2: #076969;
+  --navColor3: #133175;
+  --navColor4: #af780b;
+  --navColor5: #af550b;
 
-  
   margin: 0;
   // font-family: Nunito, sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: var(--primaryColor);
+  min-height: -webkit-fill-available;
 }
-
-
 
 section {
   width: 100%;
@@ -72,7 +71,7 @@ section {
     h1 {
       padding-bottom: 3px;
       border-bottom: 1px solid var(--secondaryColor);
-      margin: 2% 0 2% 0; 
+      margin: 2% 0 2% 0;
       text-transform: uppercase;
       font-size: var(--primaryH1);
     }
@@ -80,71 +79,61 @@ section {
 }
 
 @media only screen and (max-width: 480px) {
-
   #root {
     margin: 0;
   }
-  
-body {
-  --primaryColor:#000000;
-  --secondaryColor:#f5f5f5;
-  --navColor1:#21292c;
-  --navColor2:#076969;
-  --navColor3:#133175;
-  --navColor4:#AF780B;
-  --navColor5:#AF550B;
 
-  margin: 0;
-  // font-family: Nunito, sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  background-color: var(--primaryColor);
-}
+  body {
+    --primaryColor: #000000;
+    --secondaryColor: #f5f5f5;
+    --navColor1: #21292c;
+    --navColor2: #076969;
+    --navColor3: #133175;
+    --navColor4: #af780b;
+    --navColor5: #af550b;
 
-body.dark {
-  --primaryColor:#f5f5f5;
-  --secondaryColor:#000000;
-  --navColor1:#21292c;
-  --navColor2:#076969;
-  --navColor3:#133175;
-  --navColor4:#AF780B;
-  --navColor5:#AF550B;
+    margin: 0;
+    // font-family: Nunito, sans-serif;
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--primaryColor);
+  }
 
-  
-  margin: 0;
-  // font-family: Nunito, sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  background-color: var(--primaryColor);
-}
+  body.dark {
+    --primaryColor: #f5f5f5;
+    --secondaryColor: #000000;
+    --navColor1: #21292c;
+    --navColor2: #076969;
+    --navColor3: #133175;
+    --navColor4: #af780b;
+    --navColor5: #af550b;
 
-section {
-  // width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  letter-spacing: 2px;
-  color: var(--secondaryColor);
-  padding: 0 5%;
+    margin: 0;
+    // font-family: Nunito, sans-serif;
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--primaryColor);
+  }
 
-  .section-header {
-    font-size: 1rem;
-    padding-bottom: 3px;
-    width: 80%;
+  section {
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
     color: var(--secondaryColor);
+    padding: 0 5%;
 
-    h1 {
+    .section-header {
+      font-size: 1rem;
       padding-bottom: 3px;
-      border-bottom: 1px solid var(--secondaryColor);
-      margin: 2% 0 2% 0; 
-      text-transform: uppercase;
+      width: 80%;
+      color: var(--secondaryColor);
+
+      h1 {
+        padding-bottom: 3px;
+        border-bottom: 1px solid var(--secondaryColor);
+        margin: 2% 0 2% 0;
+        text-transform: uppercase;
+      }
     }
   }
 }
-
-}
-
-
-
-
-
-
-
