@@ -38,11 +38,11 @@ const introdata = {
     third: "I develop apps",
     fourth: "I love to learn",
   },
-  aboutMe: `I'm a fullstack developer working with languages like TypeScript and JavaScript, and frameworks like React and Node.js. After graduating from NMBU with a masters degree in global development studies i spent a couple of years working for Red Cross and Blue Cross with different humantitarian activites for children and low income families.
+  aboutMe: `I'm a fullstack developer working with languages like TypeScript and C#, and frameworks like React and .NET. After graduating from NMBU with a masters degree in global development studies i spent a couple of years working for Red Cross and Blue Cross with different humantitarian activites for children and low income families.
 
-            In the summer of 2022, I decided that it's time for me to go fulltime into IT and in February 2023 I graduated from Brights's accelerated learning program. The program contained over 500 hours with active learning around the languages JavasCript, CSS and HTML - creating front-end design in React, and back end with Node.JS and postgreSQL. 
+            In the summer of 2022, I decided that it's time for me to go fulltime into IT and in February 2023 I graduated from Brights's accelerated learning program. The program contained over 500 hours with active learning around the languages JavaScript, CSS and HTML - creating front-end design in React, and back end with C# / Node.JS and postgreSQL. 
 
-            I love learning and jumping into new and exciting projects, as well as that my background from a multitude of different sectors, allows me to quickly join any team in their ongoing processes. Take a look around and contact me if I seem like a good fit for your team.`,
+            I love learning and jumping into new and exciting projects, as well as that my background from a multitude of different sectors, allow me to quickly join any team in their ongoing processes. Take a look around and contact me if I seem like a good fit for your team.`,
 };
 
 const socialprofils = {
@@ -89,14 +89,19 @@ const education = [
   },
 ];
 
+/* With my experience in HTML5, CSS3, TypeScript, C# and PostgreSQL, I offer a solid foundation to bring your projects to life. 
+By harnessing the power of these technologies, I can create visually appealing and interactive websites that captivate your audience. 
+Whether you're seeking stunning designs, seamless user interactions, or robust data management, I have the skills necessary to deliver exceptional results.  */
+
+
+
 const skills = [
   {
     skill: "Languages",
     info: {
       text: `
-    With my experience in HTML5, CSS3, JavaScript, TypeScript, and PostgreSQL, I offer a solid foundation to bring your web projects to life. 
-    By harnessing the power of these technologies, I can create visually appealing and interactive websites that captivate your audience. 
-    Whether you're seeking stunning designs, seamless user interactions, or robust data management, I have the skills necessary to deliver exceptional results. 
+      I have a foundation in web tech like HTML5, CSS3, TypeScript, C#, and PostgreSQL. While I consider myself a junior developer, I'm committed to leveraging these tools to contribute meaningfully to projects.
+    Through my experience, I've become acquainted with crafting visually appealing web content using HTML5 and CSS3. TypeScript's advantages in enhancing code reliability have also caught my attention, and I'm actively improving my proficiency with it. I'm in the early stages of harnessing the potential of C# for web applications and exploring how PostgreSQL can efficiently manage data.
     `,
       icons: [
         <img src={HTMLIMG} alt="HTML logo" />,
@@ -111,9 +116,7 @@ const skills = [
     skill: "Frameworks and clouds",
     info: {
       text: `
-    I have honed my skills in building responsive websites that effectively scale across devices using popular frameworks such as React and Redux. 
-    In addition, I have experience working with backend technologies like Node.js, Express.js, and databases such as PostgreSQL and Firebase. 
-    I am passionate about creating exceptional digital experiences and always strive to stay updated with the latest industry trends and best practices.
+      I've worked on making websites responsive with frameworks like React and Redux, aiming for good scaling across devices. I've also dabbled in backend tech like Node.js, Express.js, and databases like PostgreSQL and Firebase. Creating great digital experiences is my passion, and I'm eager to learn from the industry's latest trends and best practices.
     `,
       icons: [
         <img src={reactIMG} alt="React logo" />,
@@ -166,7 +169,7 @@ const projects = [
   },
   {
     project: `Small projects`,
-    info: `Small projects for updating my skills with JavaScript. Press if you wanna hear a joke =)`,
+    info: `Small projects for updating my skills with JavaScript. Press if you wanna hear a joke (only on web) =)`,
     img: `${jokeTellerIMG}`,
     alt: `Remembrall`,
     website: "",

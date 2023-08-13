@@ -22,7 +22,7 @@ const Home = () => {
         <h1>I am Irgen Wiig Sørensen</h1>
       </div>
       <div>
-        <p>Full-Stack Developer|</p>
+        <p>Full-Stack Developer</p>
       </div>
   
     </div>

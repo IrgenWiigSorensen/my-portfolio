@@ -61,19 +61,23 @@
 
         @keyframes primary {
           0% {
-            left: 0%;
+            //left: 0%;
+            transform: translateX(0%);
           }
           100% {
-            left: -100%;
+            //left: -100%;
+            transform: translateX(-100%);
           }
         }
 
         @keyframes secondary {
           0% {
-            left: 100%;
+            //left: 100%;
+            transform: translateX(100%);
           }
           100% {
-            left: 0%;
+            //left: 0%;
+            transform: translateX(0%);
           }
         }
 
@@ -81,6 +85,8 @@
           width: 100%;
           max-height: 100%;
           min-height: 65px;
+          //will-change: transform; /* Add this line */
+          /* ... other styles */
 
           .skill-icon {
             width: 100%;
