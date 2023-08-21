@@ -16,13 +16,13 @@ const Home = () => {
     {/* </Div100vh> */}
     <div className='intro-text'>
       <div>
-        <p >Hello, World!</p>
+        <p >"Hello, World!"</p>
       </div>
       <div>
-        <h1>I am Irgen Wiig Sørensen</h1>
+        <h1>Irgen Wiig Sørensen</h1>
       </div>
       <div>
-        <p>Full-Stack Developer</p>
+        <p>Full Stack Developer</p>
       </div>
   
     </div>

@@ -32,6 +32,7 @@ import stripeIMG from "./assets/Stripe.svg";
 
 const introdata = {
   title: "I’m Irgen Wiig Sørensen",
+  title2: "31 | Kristiansand",
   animated: {
     first: "I love coding",
     second: "I code cool websites",
@@ -92,8 +93,6 @@ const education = [
 /* With my experience in HTML5, CSS3, TypeScript, C# and PostgreSQL, I offer a solid foundation to bring your projects to life. 
 By harnessing the power of these technologies, I can create visually appealing and interactive websites that captivate your audience. 
 Whether you're seeking stunning designs, seamless user interactions, or robust data management, I have the skills necessary to deliver exceptional results.  */
-
-
 
 const skills = [
   {
