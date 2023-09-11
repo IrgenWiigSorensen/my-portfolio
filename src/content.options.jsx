@@ -16,6 +16,7 @@ import bootstrapIMG from "./assets/icons8-bootstrap.svg";
 import npmIMG from "./assets/icons8-npm.svg";
 import sassIMG from "./assets/icons8-sass.svg";
 import stripeIMG from "./assets/Stripe.svg";
+import reactivitiesIMG from "./assets/Reactivities.png";
 
 // import { useContext } from "react";
 // import { ColorSchemeContext } from "./contexts/color-scheme.context";
@@ -146,6 +147,15 @@ const skills = [
 ];
 
 const projects = [
+  {
+    project: `Reactivities`,
+    info: `A Social Media app built with C# .Net, Entity Framework and postGreSQL. Vite.js and semantic ui for fast and simple ui.`,
+    img: `${reactivitiesIMG}`,
+    alt: `Reactivities App`,
+    // website: `https://papaya-yeot-fb6b77.netlify.app/`,
+    joke: false,
+    github: `https://github.com/IrgenWiigSorensen/Reactivities`,
+  },
   {
     project: `E-commerce App`,
     info: `The application is built on React-Redux and uses FireBase and FireStore for the database and authenication of users. 

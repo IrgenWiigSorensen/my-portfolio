@@ -10,7 +10,6 @@ export const ColorSchemeProvider =({children}) => {
   const [isDark, setIsDark] = useState(false);
 
   const toggleColorScheme = () => {
-    console.log('clicked the button')
     setIsDark(!isDark);
   }
 
